@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 100px;
+  background: lightgray; }
+
+#box1 {
+  border: 1px solid #31c4bf;
+  padding: 100px; }
+  #box1:hover {
+    background: linear-gradient(#796fbf, #31c4bf);
+    padding: 70px; }
+  #box1 h1 {
+    color: #31c4bf; }
+
+#box2 {
+  border: 1px solid #796fbf;
+  padding: 100px; }
+  #box2 #box2 > h1 {
+    color: #594dae; }
