@@ -5,5 +5,131 @@
 
 /*This is section for generic settings*/
 body, html {
-  width: 100%;
+  color: #083451;
+}
+
+header {
+  background: url("http://unsplash.it/1000?image=930") no-repeat center center;
+  background-size: cover;
+  opacity: .8;
+}
+
+main {
+  padding-bottom: 1.5vw;
+  padding-top: 1.5vw;
+}
+
+headerText {
+  color: #072e48;
+}
+
+.smallLogo {
+  width: 2.5vw;
+}
+
+.hr-sec-intro {
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+}
+
+.hr-sec-intro h1 {
+  font-size: 7vw;
+  margin-bottom: 0;
+}
+
+.hr-sec-intro h6 {
+  margin-top: 0;
+}
+
+.hr-sec-intro > h1 {
+  color: #fff;
+  text-shadow: 1px 1px 1px #fff;
+  font-weight: 300;
+}
+
+.paddingPara {
+  padding: 1.5vw;
+}
+
+.mn-sec-l-bd {
+  margin: .5vw;
+  padding-left: 1.5vw;
+  border-left: medium solid #D7D7D7;
+}
+
+.mn-sec-l-ft > button {
+  padding: 0;
+}
+
+button > ul {
+  margin-bottom: 0;
+}
+
+button > ul li > i {
+  color: #fff;
+}
+
+.mdLogo {
+  width: 10vw;
+}
+
+.mn-sec-r-hr h5, .mn-sec-r-hr ul, .mn-sec-r-hr h4 {
+  margin-bottom: 0;
+}
+
+.mn-sec-r-hr h4 {
+  margin-top: 20px;
+}
+
+.mn-sec-r-hr h5 {
+  margin-top: 2px;
+}
+
+.mn-sec-r-hr h6 {
+  margin: 0 auto;
+}
+
+.mn-sec-r-bd img {
+  padding: 1.5vw;
+}
+
+.mn-sec-r-bd > p {
+  padding: 0px;
+}
+
+.ft-img-1 {
+  background: url("http://unsplash.it/200?image=170") no-repeat center center;
+  background-size: cover;
+}
+
+.ft-img-2 {
+  background: url("http://unsplash.it/200?image=169") no-repeat center center;
+  background-size: cover;
+}
+
+.ft-img-3 {
+  background: url("http://unsplash.it/200?image=168") no-repeat center center;
+  background-size: cover;
+}
+
+.ft-img-4 {
+  background: url("http://unsplash.it/200?image=167") no-repeat center center;
+  background-size: cover;
+}
+
+.ft-img-4, .ft-img-3, .ft-img-2, .ft-img-1 {
+  height: 25vw;
+}
+
+.ft-img-4 > h2, .ft-img-3 > h2, .ft-img-2 > h2, .ft-img-1 > h2 {
+  line-height: 5vw;
+}
+
+.ft-nav {
+  background-color: #083452;
+  color: #A3B3BF;
+}
+
+.ft-border {
+  border-right: medium solid #D7D7D7;
 }

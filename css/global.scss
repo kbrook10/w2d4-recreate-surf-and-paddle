@@ -1,9 +1,124 @@
+$colorLogo: #083451;
+$paddingIntro: 6vw;
+$smallLogo: 2.5vw;
+$paddingPara: 1.5vw;
+$wColor: #fff;
+$mdLogo: 10vw;
+
 *{
     box-sizing: border-box;
     border: 1px dashed grey;
 }
 /*This is section for generic settings*/
 body, html{
-    width: 100%;
+    color: $colorLogo;
+}
+header{
+    background: url("http://unsplash.it/1000?image=930") no-repeat center center;
+    background-size: cover;
+    opacity: .8;
+
+}
+main{
+    padding-bottom: 1.5vw;
+    padding-top: 1.5vw;
 }
 // This is styling for the header section
+
+headerText{
+    color: darken($colorLogo,2.0);
+}
+.smallLogo{
+    width: $smallLogo;
+}
+.hr-sec-intro{
+    padding-top: $paddingIntro;
+    padding-bottom: $paddingIntro;
+    h1{
+        font-size: 7vw;
+        margin-bottom: 0;
+    }
+    h6{
+        margin-top: 0;
+    }
+}
+.hr-sec-intro>h1{
+    color: $wColor;
+    text-shadow: 1px 1px 1px $wColor;
+    font-weight: 300;
+}
+// This is styling for the main section left side
+.paddingPara{
+    padding: $paddingPara;
+}
+.mn-sec-l-bd{
+    margin: .5vw;
+    padding-left: $paddingPara;
+    border-left: medium solid #D7D7D7;
+}
+.mn-sec-l-ft> button{
+    // padding: 0 0 0 $paddingPara;
+    padding: 0;
+}
+button >ul{
+    margin-bottom: 0;
+    li>i{
+        color: $wColor;
+    }
+}
+// This styling is for the main section right side
+.mdLogo{
+    width: $mdLogo;
+}
+.mn-sec-r-hr{
+    h5, ul, h4{
+        margin-bottom: 0;
+    }
+    h4{
+        margin-top:20px;
+    }
+    h5{
+        margin-top: 2px;
+    }
+    h6{
+        margin: 0 auto;
+    }
+}
+.mn-sec-r-bd{
+    img{
+        padding: $paddingPara;
+    }
+}
+.mn-sec-r-bd > p{
+    padding: 0px;
+}
+// This styling is for the footer section
+.ft-img-1{
+    background: url("http://unsplash.it/200?image=170") no-repeat center center;
+    background-size: cover;
+}
+.ft-img-2{
+    background: url("http://unsplash.it/200?image=169") no-repeat center center;
+    background-size: cover;
+}
+.ft-img-3{
+    background: url("http://unsplash.it/200?image=168") no-repeat center center;
+    background-size: cover;
+}
+.ft-img-4{
+    background: url("http://unsplash.it/200?image=167") no-repeat center center;
+    background-size: cover;
+}
+.ft-img-4, .ft-img-3, .ft-img-2, .ft-img-1{
+    height: 25vw;
+}
+.ft-img-4 >h2, .ft-img-3>h2, .ft-img-2>h2, .ft-img-1>h2{
+    line-height: 5vw;
+}
+.ft-nav{
+    background-color: #083452;
+    color: #A3B3BF;
+}
+.ft-border{
+    border-right: medium solid #D7D7D7;
+}
