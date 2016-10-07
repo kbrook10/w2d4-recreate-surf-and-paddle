@@ -52,6 +52,18 @@ main{
     background-color: #5E686F;
     color: $wColor;
 }
+.mn-sec-l-ft-txt{
+    background-color: #A3B3BF;
+    color: $wColor;
+}
+.mn-sec-btn-lb{
+    background-color: #083452;
+    color: $wColor;
+}
+.mn-sec-l-ft-txtb{
+    background-color: #106DB3;
+    color: $wColor;
+}
 
 // This styling is for the main section right side
 .mdLogo{
@@ -134,5 +146,11 @@ main{
 @media screen and (min-width: 768px){
     .ft-mn-sec{
         flex-direction: row;
+    }
+    .ft-nav-l{
+        text-align: left;
+    }
+    .ft-nav-r{
+        text-align: right;
     }
 }

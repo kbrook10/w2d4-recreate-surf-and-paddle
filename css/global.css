@@ -52,6 +52,21 @@ main {
   color: #fff;
 }
 
+.mn-sec-l-ft-txt {
+  background-color: #A3B3BF;
+  color: #fff;
+}
+
+.mn-sec-btn-lb {
+  background-color: #083452;
+  color: #fff;
+}
+
+.mn-sec-l-ft-txtb {
+  background-color: #106DB3;
+  color: #fff;
+}
+
 .mdLogo {
   width: 40%;
 }
@@ -143,5 +158,11 @@ main {
 @media screen and (min-width: 768px) {
   .ft-mn-sec {
     flex-direction: row;
+  }
+  .ft-nav-l {
+    text-align: left;
+  }
+  .ft-nav-r {
+    text-align: right;
   }
 }
