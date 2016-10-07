@@ -19,12 +19,8 @@ main {
   padding-top: 1.5vw;
 }
 
-headerText {
-  color: #072e48;
-}
-
 .smallLogo {
-  width: 2.5vw;
+  width: 3vw;
 }
 
 .hr-sec-intro {
@@ -51,21 +47,8 @@ headerText {
   padding: 1.5vw;
 }
 
-.mn-sec-l-ft > button {
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-}
-
-.mn-sec-l-ft-flex {
-  flex: 1;
-}
-
-button > ul {
-  margin-bottom: 0;
-}
-
-button > ul li > i {
+.mn-sec-btn-l {
+  background-color: #5E686F;
   color: #fff;
 }
 
@@ -105,6 +88,10 @@ button > ul li > i {
   border-top: thin solid #D7D7D7;
 }
 
+.ft-mn {
+  background-color: rgba(8, 52, 81, 0.9);
+}
+
 .ft-img-1 {
   background: url("http://unsplash.it/200?image=170") no-repeat center center;
   background-size: cover;
@@ -126,7 +113,22 @@ button > ul li > i {
 }
 
 .ft-img-4, .ft-img-3, .ft-img-2, .ft-img-1 {
-  height: 40vh;
+  height: 30vh;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  opacity: .50;
+  transition: all 1.3s ease;
+}
+
+.ft-img-4:hover, .ft-img-3:hover, .ft-img-2:hover, .ft-img-1:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.ft-mn-sec {
+  display: flex;
+  flex-direction: column;
 }
 
 .ft-nav {
@@ -136,4 +138,10 @@ button > ul li > i {
 
 .ft-border {
   border-right: medium solid #D7D7D7;
+}
+
+@media screen and (min-width: 768px) {
+  .ft-mn-sec {
+    flex-direction: row;
+  }
 }

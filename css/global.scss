@@ -1,6 +1,6 @@
 $colorLogo: #083451;
 $paddingIntro: 6vw;
-$smallLogo: 2.5vw;
+$smallLogo: 3.0vw;
 $paddingPara: 1.5vw;
 $wColor: #fff;
 $mdLogo: 40%;
@@ -25,9 +25,6 @@ main{
 }
 // This is styling for the header section
 
-headerText{
-    color: darken($colorLogo,2.0);
-}
 .smallLogo{
     width: $smallLogo;
 }
@@ -51,21 +48,11 @@ headerText{
 .paddingPara{
     padding: $paddingPara;
 }
-.mn-sec-l-ft> button{
-    // padding: 0 0 0 $paddingPara;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
+.mn-sec-btn-l{
+    background-color: #5E686F;
+    color: $wColor;
 }
-.mn-sec-l-ft-flex{
-    flex: 1;
-}
-button >ul{
-    margin-bottom: 0;
-    li>i{
-        color: $wColor;
-    }
-}
+
 // This styling is for the main section right side
 .mdLogo{
     width: $mdLogo;
@@ -99,6 +86,9 @@ button >ul{
     border-top: thin solid #D7D7D7;
 }
 // This styling is for the footer section
+.ft-mn{
+    background-color: rgba(8,52,81, .9);
+}
 .ft-img-1{
     background: url("http://unsplash.it/200?image=170") no-repeat center center;
     background-size: cover;
@@ -116,7 +106,20 @@ button >ul{
     background-size: cover;
 }
 .ft-img-4, .ft-img-3, .ft-img-2, .ft-img-1{
-    height: 40vh;
+    height: 30vh;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    opacity: .50;
+    transition: all 1.3s ease;
+    &:hover{
+        color: $wColor;
+        opacity: 1;
+    }
+}
+.ft-mn-sec{
+    display: flex;
+    flex-direction: column;
 }
 
 .ft-nav{
@@ -125,4 +128,11 @@ button >ul{
 }
 .ft-border{
     border-right: medium solid #D7D7D7;
+}
+// This section is for media queries
+
+@media screen and (min-width: 768px){
+    .ft-mn-sec{
+        flex-direction: row;
+    }
 }

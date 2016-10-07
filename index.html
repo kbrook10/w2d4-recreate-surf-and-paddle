@@ -14,7 +14,7 @@
 <body>
   <!-- This begins the header section -->
   <header>
-    <div class="container-fluid text-center headerText">
+    <div class="container-fluid text-center">
       <div class="row">
         <div class="container">
           <div class="row">
@@ -53,7 +53,7 @@
           <div class="col-sm-8">
             <div class="mn-sec-l-hr">
               <h1 class="text-uppercase">a fantastic engaging headline goes here</h1>
-              <ul class="list-inline text-center img-responsive">
+              <ul class="list-inline text-left img-responsive">
                 <li><img src="http://unsplash.it/100?image=1082"  alt="Random image" class="smallLogo img-circle"></li>
                 <li>Anne Marie</li>
                 <li>on <a href="#">Monday, Oct. 7 9:22pm</a></li>
@@ -66,18 +66,11 @@
               <p class="paddingPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <a href="#">ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <p class="paddingPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <div class="mn-sec-l-ft text-center">
-                <ul class="list-inline mn-sec-l-ft-flex">
-                  <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i></a></li>
-                  <li class="text-capitalize">read components</li>
-                </ul>
-                <ul class="list-inline mn-sec-l-ft-flex">
-                  <li><a href="#"><i class="fa fa-cloud-upload" aria-hidden="true"></i></a></li>
-                  <li class="text-capitalized">read later</li>
-                </ul>
+              <div class="mn-sec-l-ft text-left">
                 <ul class="list-inline">
-                  <li><i class="fa fa-share-square-o" aria-hidden="true"></i></li>
-                  <li class="text-capitalize">share this post</li>
+                  <li><a href="#"><i class="fa fa-comment-o mn-sec-btn-l" aria-hidden="true"></i><span class="text-capitalize mn-sec-l-ft-txt">read components</span></a></li>
+                  <li><a href="#"><i class="fa fa-cloud-upload" aria-hidden="true"></i><span class="text-capitalize mn-sec-l-ft-txt">read later</span></a></li>
+                  <li><i class="fa fa-share-square-o" aria-hidden="true"></i><span class="text-capitalize mn-sec-l-ft-txt">share this post</span></li>
                 </ul>
           </div>
         </div>
@@ -87,7 +80,7 @@
       </div>
       <div class="col-sm-4">
         <div class="mn-sec-r-hr text-center">
-          <h4><img src="http://unsplash.it/100?image=1082"  alt="Random image" class="img-circle mdLogo"></h4>
+          <img src="http://unsplash.it/100?image=1082"  alt="Random image" class="img-circle mdLogo">
           <h5>Anne Marie</h5>
           <ul class="list-inline text-center">
             <li class="list-inline-item"><h6>Twitter</h6></li>
@@ -121,39 +114,40 @@
 
 <!-- This Begins the footer section -->
 <footer>
-  <div class="container-fluid">
+  <div class="ft-mn">
     <!-- This Begins the footer image row section -->
-    <div class="row text-uppercase">
-      <div class="col-sm-3 ft-img-1">
+    <div class="ft-mn-sec text-uppercase">
+      <div class="ft-img-1">
         <h4>another cool post</h4>
       </div>
-      <div class="col-sm-3 ft-img-2">
+      <div class="ft-img-2">
         <h4>post title</h4>
       </div>
-      <div class="col-sm-3 ft-img-3">
+      <div class="ft-img-3">
         <h4>here's another longer post title</h4>
       </div>
-      <div class="col-sm-3 ft-img-4">
+      <div class="ft-img-4">
         <h4>oh cool a post!</h4>
       </div>
     </div>
     <!-- This Ends the footer image row section -->
 
     <!-- This Begins the footer footer section -->
-    <div class="row ft-nav">
-      <div class="col-sm-6">
-        <ul class="list-inline">
-          <li><img src="img/the-iron-yard-logo.png" alt="Iron Yard logo" class="smallLogo"></li>
-          <li>The Ironyard Copyright 2012. All Rights Reserved.</li>
-        </ul>
-      </div>
-      <div class="col-sm-6 text-right">
-        <ul class="list-inline ">
-          <li class="ft-border">Nav Item 1</li>
-          <li class="ft-border">Nav Item 2</li>
-          <li class="ft-border">Nav Item 3</li>
-          <li>Nav Item 5</li>
-        </ul>
+    <div class="container">
+      <div class="row ft-nav">
+        <div class="col-sm-6">
+          <ul class="list-inline text-left">
+            <li class="small"><img src="img/the-iron-yard-logo.png" alt="Iron Yard logo" class="smallLogo">&nbsp; &nbsp;The Ironyard Copyright 2012. All Rights Reserved.</li>
+          </ul>
+        </div>
+        <div class="col-sm-6 text-right">
+          <ul class="list-inline small">
+            <li class="ft-border">Nav Item 1</li>
+            <li class="ft-border">Nav Item 2</li>
+            <li class="ft-border">Nav Item 3</li>
+            <li>Nav Item 5</li>
+          </ul>
+        </div>
       </div>
     </div>
     <!-- This Ends the footer footer section -->
