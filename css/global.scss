@@ -3,7 +3,7 @@ $paddingIntro: 6vw;
 $smallLogo: 2.5vw;
 $paddingPara: 1.5vw;
 $wColor: #fff;
-$mdLogo: 10vw;
+$mdLogo: 40%;
 
 *{
     box-sizing: border-box;
@@ -51,14 +51,14 @@ headerText{
 .paddingPara{
     padding: $paddingPara;
 }
-.mn-sec-l-bd{
-    margin: .5vw;
-    padding-left: $paddingPara;
-    border-left: medium solid #D7D7D7;
-}
 .mn-sec-l-ft> button{
     // padding: 0 0 0 $paddingPara;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.mn-sec-l-ft-flex{
+    flex: 1;
 }
 button >ul{
     margin-bottom: 0;
@@ -86,11 +86,17 @@ button >ul{
 }
 .mn-sec-r-bd{
     img{
-        padding: $paddingPara;
+        padding: $paddingPara $paddingPara 0 $paddingPara;
+    }
+    div{
+        padding-top: 0;
     }
 }
 .mn-sec-r-bd > p{
     padding: 0px;
+}
+.mn-sec-btm{
+    border-top: thin solid #D7D7D7;
 }
 // This styling is for the footer section
 .ft-img-1{
@@ -110,11 +116,9 @@ button >ul{
     background-size: cover;
 }
 .ft-img-4, .ft-img-3, .ft-img-2, .ft-img-1{
-    height: 25vw;
+    height: 40vh;
 }
-.ft-img-4 >h2, .ft-img-3>h2, .ft-img-2>h2, .ft-img-1>h2{
-    line-height: 5vw;
-}
+
 .ft-nav{
     background-color: #083452;
     color: #A3B3BF;

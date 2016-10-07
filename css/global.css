@@ -51,14 +51,14 @@ headerText {
   padding: 1.5vw;
 }
 
-.mn-sec-l-bd {
-  margin: .5vw;
-  padding-left: 1.5vw;
-  border-left: medium solid #D7D7D7;
-}
-
 .mn-sec-l-ft > button {
   padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.mn-sec-l-ft-flex {
+  flex: 1;
 }
 
 button > ul {
@@ -70,7 +70,7 @@ button > ul li > i {
 }
 
 .mdLogo {
-  width: 10vw;
+  width: 40%;
 }
 
 .mn-sec-r-hr h5, .mn-sec-r-hr ul, .mn-sec-r-hr h4 {
@@ -90,11 +90,19 @@ button > ul li > i {
 }
 
 .mn-sec-r-bd img {
-  padding: 1.5vw;
+  padding: 1.5vw 1.5vw 0 1.5vw;
+}
+
+.mn-sec-r-bd div {
+  padding-top: 0;
 }
 
 .mn-sec-r-bd > p {
   padding: 0px;
+}
+
+.mn-sec-btm {
+  border-top: thin solid #D7D7D7;
 }
 
 .ft-img-1 {
@@ -118,11 +126,7 @@ button > ul li > i {
 }
 
 .ft-img-4, .ft-img-3, .ft-img-2, .ft-img-1 {
-  height: 25vw;
-}
-
-.ft-img-4 > h2, .ft-img-3 > h2, .ft-img-2 > h2, .ft-img-1 > h2 {
-  line-height: 5vw;
+  height: 40vh;
 }
 
 .ft-nav {
