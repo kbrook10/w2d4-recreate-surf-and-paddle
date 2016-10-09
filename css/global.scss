@@ -3,7 +3,8 @@ $paddingIntro: 6vw;
 $smallLogo: 3.0vw;
 $paddingPara: 1.5vw;
 $wColor: #fff;
-$mdLogo: 30%;
+$mdLogo: 40%;
+$bgOpacity: rgba(21,113,186, .65);
 
 *{
     box-sizing: border-box;
@@ -16,8 +17,6 @@ body, html{
 header{
     background: url("http://unsplash.it/1000?image=930") no-repeat center center;
     background-size: cover;
-    opacity: .8;
-    background-color: rgba(8,52,81, .9);
 }
 main{
     padding-bottom: 1.5vw;
@@ -25,6 +24,9 @@ main{
 }
 // This is styling for the header section
 
+.hr-sec-bg-op{
+    background: $bgOpacity;
+}
 .smallLogo{
     width: $smallLogo;
 }
@@ -57,7 +59,7 @@ main{
     color: $wColor;
 }
 .mn-sec-btn-lb{
-    background-color: #083452;
+    background-color: $colorLogo;
     color: $wColor;
 }
 .mn-sec-l-ft-txtb{
@@ -70,6 +72,7 @@ main{
     width: $mdLogo;
     padding-top: 5px;
     padding-bottom: 5px;
+    opacity: .8;
 }
 .mn-sec-r-hr{
     margin-top: 20px;
@@ -109,13 +112,17 @@ main{
         text-decoration: none;
     }
 }
+.imOpacity{
+    opacity: .5;
+}
 .mn-sec-btm{
     border-top: thin solid #D7D7D7;
 }
 // This styling is for the footer section
 .ft-mn{
-    background-color: rgba(8,52,81, .9);
+    background-color: $colorLogo;
 }
+
 .ft-img-1{
     background: url("http://unsplash.it/200?image=170") no-repeat center center;
     background-size: cover;
@@ -137,7 +144,7 @@ main{
     flex: 1;
     display: flex;
     align-items: flex-end;
-    opacity: .50;
+    opacity: .80;
     transition: all 1.3s ease;
     &:hover{
         color: $wColor;
@@ -147,10 +154,13 @@ main{
 .ft-mn-sec{
     display: flex;
     flex-direction: column;
+    color: $colorLogo;
+    opacity: .90;
+    background: rgba(21,113,186, .95);
 }
 
 .ft-nav{
-    background-color: #083452;
+    background-color: $colorLogo;
     color: #A3B3BF;
 }
 .ft-border{

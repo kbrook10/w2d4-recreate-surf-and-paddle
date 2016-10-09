@@ -11,13 +11,15 @@ body, html {
 header {
   background: url("http://unsplash.it/1000?image=930") no-repeat center center;
   background-size: cover;
-  opacity: .8;
-  background-color: rgba(8, 52, 81, 0.9);
 }
 
 main {
   padding-bottom: 1.5vw;
   padding-top: 1.5vw;
+}
+
+.hr-sec-bg-op {
+  background: rgba(21, 113, 186, 0.65);
 }
 
 .smallLogo {
@@ -59,7 +61,7 @@ main {
 }
 
 .mn-sec-btn-lb {
-  background-color: #083452;
+  background-color: #083451;
   color: #fff;
 }
 
@@ -69,9 +71,10 @@ main {
 }
 
 .mdLogo {
-  width: 30%;
+  width: 40%;
   padding-top: 5px;
   padding-bottom: 5px;
+  opacity: .8;
 }
 
 .mn-sec-r-hr {
@@ -121,12 +124,16 @@ main {
   text-decoration: none;
 }
 
+.imOpacity {
+  opacity: .5;
+}
+
 .mn-sec-btm {
   border-top: thin solid #D7D7D7;
 }
 
 .ft-mn {
-  background-color: rgba(8, 52, 81, 0.9);
+  background-color: #083451;
 }
 
 .ft-img-1 {
@@ -154,7 +161,7 @@ main {
   flex: 1;
   display: flex;
   align-items: flex-end;
-  opacity: .50;
+  opacity: .80;
   transition: all 1.3s ease;
 }
 
@@ -166,10 +173,13 @@ main {
 .ft-mn-sec {
   display: flex;
   flex-direction: column;
+  color: #083451;
+  opacity: .90;
+  background: rgba(21, 113, 186, 0.95);
 }
 
 .ft-nav {
-  background-color: #083452;
+  background-color: #083451;
   color: #A3B3BF;
 }
 
