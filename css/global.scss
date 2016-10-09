@@ -1,11 +1,4 @@
-$colorLogo: #083451;
-$paddingIntro: 6vw;
-$smallLogo: 3.0vw;
-$paddingPara: 1.5vw;
-$wColor: #fff;
-$mdLogo: 40%;
-$bgOpacity: rgba(21,113,186, .65);
-
+@import 'varSettings';
 *{
     box-sizing: border-box;
     border: 1px dashed grey;
