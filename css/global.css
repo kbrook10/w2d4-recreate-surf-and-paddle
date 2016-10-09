@@ -12,6 +12,7 @@ header {
   background: url("http://unsplash.it/1000?image=930") no-repeat center center;
   background-size: cover;
   opacity: .8;
+  background-color: rgba(8, 52, 81, 0.9);
 }
 
 main {
@@ -68,7 +69,14 @@ main {
 }
 
 .mdLogo {
-  width: 40%;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mn-sec-r-hr {
+  margin-top: 20px;
+  padding-bottom: 5px;
 }
 
 .mn-sec-r-hr h5, .mn-sec-r-hr ul, .mn-sec-r-hr h4 {
@@ -88,15 +96,29 @@ main {
 }
 
 .mn-sec-r-bd img {
-  padding: 1.5vw 1.5vw 0 1.5vw;
+  width: 80%;
+  margin-top: 10px;
 }
 
-.mn-sec-r-bd div {
-  padding-top: 0;
+.mn-sec-r-bd-txt {
+  margin-top: 2.5px;
+  padding-right: 10%;
+}
+
+.mn-sec-r-bd-th {
+  border-right: thin solid #D7D7D7;
 }
 
 .mn-sec-r-bd > p {
   padding: 0px;
+}
+
+.mn-sec-r-bd-p {
+  color: #A8B7C2;
+}
+
+.mn-sec-r-bd-p a {
+  text-decoration: none;
 }
 
 .mn-sec-btm {
@@ -163,6 +185,12 @@ main {
     text-align: left;
   }
   .ft-nav-r {
+    text-align: right;
+  }
+  .nav-logo-l {
+    text-align: left;
+  }
+  .nav-r {
     text-align: right;
   }
 }

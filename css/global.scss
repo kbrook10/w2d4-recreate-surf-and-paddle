@@ -3,7 +3,7 @@ $paddingIntro: 6vw;
 $smallLogo: 3.0vw;
 $paddingPara: 1.5vw;
 $wColor: #fff;
-$mdLogo: 40%;
+$mdLogo: 30%;
 
 *{
     box-sizing: border-box;
@@ -17,7 +17,7 @@ header{
     background: url("http://unsplash.it/1000?image=930") no-repeat center center;
     background-size: cover;
     opacity: .8;
-
+    background-color: rgba(8,52,81, .9);
 }
 main{
     padding-bottom: 1.5vw;
@@ -68,8 +68,12 @@ main{
 // This styling is for the main section right side
 .mdLogo{
     width: $mdLogo;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .mn-sec-r-hr{
+    margin-top: 20px;
+    padding-bottom: 5px;
     h5, ul, h4{
         margin-bottom: 0;
     }
@@ -85,14 +89,25 @@ main{
 }
 .mn-sec-r-bd{
     img{
-        padding: $paddingPara $paddingPara 0 $paddingPara;
+        width: 80%;
+        margin-top: 10px;
     }
-    div{
-        padding-top: 0;
-    }
+}
+.mn-sec-r-bd-txt{
+    margin-top: 2.5px;
+    padding-right: 10%;
+}
+.mn-sec-r-bd-th{
+    border-right: thin solid #D7D7D7;
 }
 .mn-sec-r-bd > p{
     padding: 0px;
+}
+.mn-sec-r-bd-p{
+    color: #A8B7C2;
+    a{
+        text-decoration: none;
+    }
 }
 .mn-sec-btm{
     border-top: thin solid #D7D7D7;
@@ -151,6 +166,12 @@ main{
         text-align: left;
     }
     .ft-nav-r{
+        text-align: right;
+    }
+    .nav-logo-l{
+        text-align: left;
+    }
+    .nav-r{
         text-align: right;
     }
 }
