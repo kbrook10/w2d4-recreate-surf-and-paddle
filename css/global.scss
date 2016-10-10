@@ -1,7 +1,7 @@
 @import 'varSettings';
 *{
     box-sizing: border-box;
-    border: 1px dashed grey;
+    // border: 1px dashed grey;
 }
 /*This is section for generic settings*/
 body, html{
@@ -99,11 +99,16 @@ main{
 .mn-sec-r-bd > p{
     padding: 0px;
 }
+.padding-left{
+    padding-left: 30px;
+}
 .mn-sec-r-bd-p{
     color: #A8B7C2;
     a{
         text-decoration: none;
     }
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .imOpacity{
     opacity: .75;
